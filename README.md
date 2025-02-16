@@ -1,32 +1,40 @@
 # Public dotfiles
 Dotfiles for my ArchLinux Workstation
+
+## Tools
+
+| Tool | Name |
+| ---- | ---- |
+| WM | [sway](https://github.com/swaywm/sway) |
+| Status bar | [waybar](https://github.com/Alexays/Waybar)|
+| Terminal Emulator | [foot](https://github.com/r-c-f/foot)|
+| Shell | [zsh](https://github.com/zsh-users/zsh)|
+| Code editor | [nvim](https://github.com/neovim/neovim) |
+| Launcher | [rofi-wayland](https://github.com/in0ni/rofi-wayland) |
+| Screenshots | [grim](https://github.com/emersion/grim) |
+
+
 ## Dependencies
-- [`i3-gaps-rounded`](https://aur.archlinux.org/packages/i3-gaps-rounded-git) 
-- [`alacritty`](https://wiki.archlinux.org/title/Alacritty)
-- [`dmenu`](https://wiki.archlinux.org/title/dmenu)
-- [`nitrogen`](https://archlinux.org/packages/extra/x86_64/nitrogen/)
 
-## Recommended
-- [`pywal`](https://github.com/dylanaraps/pywal) (terminal color scheme)
-- [`flameshot`](https://wiki.archlinux.org/title/Flameshot) (to take screenshots)
+Shell:
+- [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) 
+- [starship](https://github.com/starship/starship)
 
-## Install
+Fonts:
+- [ttf-firacode-nerd 3.3.0-1](https://archlinux.org/packages/extra/any/ttf-firacode-nerd/)
+
+Audio:
+- pulseaudio
+
+Brightness control:
+- brightnessctl
+
+
+
+## Installation
 ``` bash
-git clone https://github.com/poleselalex/public-dotfiles.git
+git clone https://github.com/jaggornaut/public-dotfiles.git
 cp -a public-dotfiles/. ~/.config/
 ```
 
-*You should edit these config files as your needs first, this is a basic configuration*
 
-## Notes
-Make sure that your `~/.config` directory exists, then it might look like this:
-
-```
-.config
-├── alacritty
-│   └── alacritty.yml (alacritty terminal emulator configuration)
-├── i3
-│   └── config (i3 config)
-├── i3status
-    └── config (config for i3status, i3bar)
-```

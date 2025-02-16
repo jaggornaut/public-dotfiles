@@ -29,12 +29,8 @@ Audio:
 Brightness control:
 - brightnessctl
 
-
-
 ## Installation
-``` bash
+``` shell
 git clone https://github.com/jaggornaut/public-dotfiles.git
 cp -a public-dotfiles/. ~/.config/
 ```
-
-
